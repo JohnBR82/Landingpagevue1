@@ -20,8 +20,8 @@ function topFunction() {
 } 
 import My from '../assets/Eu.jpg'
 import Footera from './Footer.vue'
-import Linkedin from './assets/linkedin.png'
-import Github from './assets/github.png'
+import Linkedin from '../assets/Linkedin.png'
+import Github from '../assets/github.png'
 
 
 </script>
