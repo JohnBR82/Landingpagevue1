@@ -10,4 +10,5 @@
 <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"> Vue.js
 <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"> CSS
 
-<h5> Isso foi feito com intuito de demonstrar todos os meus serviços e estará sendo hospedado aqui</h5>
+<h5> Isso foi feito com intuito de demonstrar todos os meus serviços e estará sendo hospedado aqui https://landingpagevue1-johnbr82.vercel.app/</h5>
+
