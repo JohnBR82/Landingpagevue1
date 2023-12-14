@@ -4,7 +4,7 @@
 </template>
 
 <script setup>
-import Sobre from "../components/Sobre.vue"
+import Sobre from "../components/Sobrepagina.vue"
 
 </script>
 

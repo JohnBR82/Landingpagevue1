@@ -160,7 +160,7 @@ import Footera from './Footer.vue'
         </div>
         <div class="contact-info-container">
           <img
-            src="../assets/linkedin.png"
+            src="../assets/Linkedin.png"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
