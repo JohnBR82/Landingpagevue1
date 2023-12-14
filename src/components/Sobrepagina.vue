@@ -1,6 +1,7 @@
 
 <script setup>
 
+
 let mybutton = document.getElementById("myBtn");
 
 window.onscroll = function() {scrollFunction()};
@@ -17,13 +18,21 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 } 
+import My from '../assets/Eu.jpg'
 import Footera from './Footer.vue'
+import Linkedin from './assets/linkedin.png'
+import Github from './assets/github.png'
+
+
 </script>
+
 <template>
 
     <section id="profile">
       <div class="section__pic-container">
-        <img src="../assets/Eu.jpg" alt="John Doe profile picture" />
+        <img :src="My"
+        alt="John Doe profile picture" 
+        />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Olá meu nome é</p>
@@ -36,13 +45,11 @@ import Footera from './Footer.vue'
         </div>
         <div id="socials-container">
           <img
-            src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
             onclick="location.href='https://linkedin.com/'"
           />
           <img
-            src="./assets/github.png"
             alt="My Github profile"
             class="icon"
             onclick="location.href='https://github.com/'"
@@ -152,7 +159,7 @@ import Footera from './Footer.vue'
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
-            src="../assets/github.png"
+            :src="Github"
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
@@ -160,7 +167,7 @@ import Footera from './Footer.vue'
         </div>
         <div class="contact-info-container">
           <img
-            src="../assets/Linkedin.png"
+            :src="Linkedin"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />

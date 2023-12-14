@@ -2,6 +2,14 @@
 import Formulario from '../components/Formulario.vue'
 import Footera from '../components/Footer.vue'
 
+import Gerador from '../assets/geradordefotos.png'
+import Copywriting from '../assets/copywriting.png'
+import Blog from '../assets/blog.png'
+import Tradução from '../assets/tradução.png'
+import Testador from '../assets/testador.png'
+import Trafego from '../assets/trafegopago.png'
+import Bot from '../assets/bot.png'
+import Moderador from '../assets/moderador.png'
 </script>
 
 <template>
@@ -11,7 +19,7 @@ import Footera from '../components/Footer.vue'
   <div class="container1">
   <div class="articleoutros">
     <ul class="articleuloutros">
-        <img class="imagemartigo" src="../assets/geradordefotos.png" alt="" srcset="">
+        <img class="imagemartigo" :src="Gerador" alt="" srcset="">
         <h1 class="tituloartigooutros">Gerador De Fotos </h1>
         <h4 class="textoartigooutros">Crio fotos para seu negocio, seja qual for o motivo social</h4>
         <a class="linkartigos" href="https://media.discordapp.net/attachments/900615502584512545/1184957414160740492/00014-309091330.png?ex=658ddc96&is=657b6796&hm=f11ecf141a3235f8eeb27efeeb2ba088df8ea9eb50dc073f894349dfabf014d4&=&format=webp&quality=lossless&width=676&height=676">Demonstração</a>
@@ -19,21 +27,21 @@ import Footera from '../components/Footer.vue'
   </div>
   <div class="articleoutros">
     <ul class="articleuloutros">
-        <img class="imagemartigo" src="../assets/copywriting.png" alt="" srcset="">
+        <img class="imagemartigo" :src="Copywriting" alt="" srcset="">
         <h1 class="tituloartigooutros">Copywriting</h1>
         <h4 class="textoartigooutros">Posso produzir textos persuasivos para seu negocio</h4>
     </ul>
   </div>
   <div class="articleoutros">
     <ul class="articleuloutros">
-        <img class="imagemartigo" src="../assets/blog.png" alt="" srcset="">
+        <img class="imagemartigo" :src="Blog" alt="" srcset="">
         <h1 class="tituloartigooutros">Blog</h1>
         <h4 class="textoartigooutros">Posso criar postagem para seu nicho, seja qual for ele</h4>
     </ul>
   </div>
   <div class="articleoutros">
     <ul class="articleuloutros">
-        <img class="imagemartigo" src="../assets/tradução.png" alt="" srcset="">
+        <img class="imagemartigo" :src="Tradução" alt="" srcset="">
         <h1 class="tituloartigooutros">Tradução</h1>
         <h4 class="textoartigooutros">Posso fazer tradução de qualquer texto, português para inglês e vice-versa</h4>
     </ul>
@@ -42,28 +50,28 @@ import Footera from '../components/Footer.vue'
 <div class="container1">
   <div class="articleoutros">
     <ul class="articleuloutros">
-        <img class="imagemartigo" src="../assets/testador.png" alt="" srcset="">
+        <img class="imagemartigo" :src="Testador" alt="" srcset="">
         <h1 class="tituloartigooutros"> Testador </h1>
         <h4 class="textoartigooutros">Posso testar seu jogo ou aplicativo para fins de dar uma analise clara, se existe erros ou bugs</h4>
     </ul>
   </div>
   <div class="articleoutros">
     <ul class="articleuloutros">
-        <img class="imagemartigo" src="../assets/trafegopago.png" alt="" srcset="">
+        <img class="imagemartigo" :src="Trafego" alt="" srcset="">
         <h1 class="tituloartigooutros">Trafego Pago</h1>
         <h4 class="textoartigooutros">Posso colocar seu site no topo, com metodos SEO</h4>
     </ul>
   </div>
   <div class="articleoutros">
     <ul class="articleuloutros">
-        <img class="imagemartigo" src="../assets/bot.png" alt="" srcset="">
+        <img class="imagemartigo" :src="Bot" alt="" srcset="">
         <h1 class="tituloartigooutros">Bots</h1>
         <h4 class="textoartigooutros">Posso criar seu bot, mais preciso de especificações</h4>
     </ul>
   </div>
   <div class="articleoutros">
     <ul class="articleuloutros">
-        <img class="imagemartigo" src="../assets/moderador.png" alt="" srcset="">
+        <img class="imagemartigo" :src="Moderador" alt="" srcset="">
         <h1 class="tituloartigooutros">Moderador</h1>
         <h4 class="textoartigooutros">Posso ser moderador do seu discord, ficar horas monitorando atividades suspeitas</h4>
     </ul>

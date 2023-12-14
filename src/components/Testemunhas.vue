@@ -7,7 +7,7 @@
         <div class="row">
           <div class="col">
             <div class="testimonial">
-              <img src="../assets/p1.png" class="imgtestimonial" alt="">
+              <img :src="Carlos" class="imgtestimonial" alt="">
               <div class="name">Carlos Oliveira</div>
 
               <p class="texttestimonials">
@@ -18,7 +18,7 @@
 
           <div class="col">
             <div class="testimonial">
-              <img src="../assets/p2.png" class="imgtestimonial" alt="">
+              <img :src="Ana" class="imgtestimonial" alt="">
               <div class="name">Ana Santos</div>
 
               <p class="texttestimonials">
@@ -29,7 +29,7 @@
 
           <div class="col">
             <div class="testimonial">
-              <img src="../assets/p3.png" class="imgtestimonial" alt="">
+              <img :src="Maria" class="imgtestimonial" alt="">
               <div class="name">Maria Silva</div>
               <p class="texttestimonials">
                 Gabriel desenvolveu o site da minha loja de moda feminina com maestria. Profissionalismo, design incrível e pontualidade nos prazos. Recomendo!
@@ -41,8 +41,10 @@
     </div>
 </template>
 
-<script>
-
+<script setup>
+import Carlos from "../assets/p1.png"
+import Ana from "../assets/p2.png"
+import Maria from "../assets/p3.png"
 </script>
 
 <style>

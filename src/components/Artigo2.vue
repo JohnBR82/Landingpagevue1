@@ -1,4 +1,9 @@
-<script>
+<script setup>
+import Computador from "../assets/computador-portatil.png"
+import Fone from "../assets/fone-de-ouvido.png"
+import Config from "../assets/configuracoes.png"
+import Casa from "../assets/trabalho-em-casa.png"
+
 </script>
 
 <template>
@@ -11,28 +16,28 @@
   <div class="container1">
   <div class="articleoutros">
     <ul class="articleul">
-        <img class="imagemartigo" src="../assets/computador-portatil.png" alt="" srcset="">
+        <img class="imagemartigo" :src="Computador" alt="" srcset="">
         <h1 class="tituloartigo">Full Stack </h1>
         <h4 class="textoartigo">Estou a dois anos e meio no mercado de programação, fiz varios trabalhos freelancer, domino o javascript, python, php.</h4>
     </ul>
   </div>
   <div class="articleoutros">
     <ul class="articleul">
-        <img class="imagemartigo" src="../assets/fone-de-ouvido.png" alt="" srcset="">
+        <img class="imagemartigo" :src="Fone" alt="" srcset="">
         <h1 class="tituloartigo">Freelancer</h1>
         <h4 class="textoartigo">Ofereço criar sites a partir do que você precisa</h4>
     </ul>
   </div>
   <div class="articleoutros">
     <ul class="articleul">
-        <img class="imagemartigo" src="../assets/configuracoes.png" alt="" srcset="">
+        <img class="imagemartigo" :src="Config" alt="" srcset="">
         <h1 class="tituloartigo">Trabalho</h1>
         <h4 class="textoartigo">Eu termino seu site o mais rapido possivel</h4>
     </ul>
   </div>
   <div class="articleoutros">
     <ul class="articleul">
-        <img class="imagemartigo" src="../assets/trabalho-em-casa.png" alt="" srcset="">
+        <img class="imagemartigo" :src="Casa" alt="" srcset="">
         <h1 class="tituloartigo">No conforto do lar</h1>
         <h4 class="textoartigo">Tenho disponibilidade todos os dias, desde telegram, discord ou email</h4>
     </ul>
