@@ -14,14 +14,11 @@ function scrollFunction() {
   }
 }
 
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-} 
-import My from '../assets/Eu.jpg'
+import My from '../assets/eu.jpg'
 import Footera from './Footer.vue'
-import Linkedin from '../assets/Linkedin.png'
+import Linkedin from '../assets/linkedin.png'
 import Github from '../assets/github.png'
+
 
 
 </script>
